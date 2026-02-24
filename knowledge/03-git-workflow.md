@@ -2,6 +2,42 @@
 
 A practical guide to branches, commits, and collaboration with Git.
 
+## Setup and First Branch (Walk-through)
+
+Follow these steps when joining a project or starting work on a new repo.
+
+### 1. Initial Git setup (one-time)
+
+If you haven't configured Git yet:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+### 2. Clone the repository
+
+```bash
+git clone <repo-url>
+cd <repo-name>
+```
+
+### 3. Request branch permissions
+
+**Important:** Before creating branches in a repo you don't own, ask the repo owner (e.g. Haya, Dev, or whoever maintains it) for permission to create branches. Some repos restrict who can push new branches. Get the go-ahead before you start working.
+
+### 4. Start working on a branch
+
+```bash
+git checkout main
+git pull origin main
+git checkout -b feature/my-feature
+```
+
+You're now on your branch and ready to make changes.
+
+---
+
 ## Core Concepts
 
 - **Repository (repo)** — A project’s history and files
