@@ -1,0 +1,1 @@
+/Users/guy.kerem/claude-skills/commands/create-marp-deck.md
